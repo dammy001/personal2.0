@@ -6,10 +6,6 @@
 import { mapState, mapActions } from 'vuex'
 export default {
   layout: 'default',
-  async asyncData({ $config: { baseURL }, $axios }) {
-    const posts = await $axios.$get(`${baseURL}/posts`)
-    return { posts }
-  },
   computed: {
     ...mapState(['counter']),
   },

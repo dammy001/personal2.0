@@ -19,7 +19,7 @@ export default {
     },
   },
   loading: {
-    color: 'white',
+    color: '#F4C161',
     height: '5px',
   },
   publicRuntimeConfig: {
