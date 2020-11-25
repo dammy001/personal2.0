@@ -5,12 +5,56 @@
 @tailwind utilities;
 
 @layer base {
+    @font-face {
+        font-family: 'Butler Stencil';
+        src: url(~@/assets/fonts/ButlerStencil-Bold.woff2) format('woff2'),
+            url(~@/assets/fonts/ButlerStencil-Bold.woff) format('woff');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Montserrat Medium';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Montserrat Medium'), url(~@/assets/fonts/Montserrat-Medium.woff) format('woff');
+    }
+
+    @font-face {
+        font-family: 'Montserrat Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Montserrat Regular'), url(~@/assets/fonts/Montserrat-Regular.woff) format('woff');
+    }
+
+    @font-face {
+        font-family: 'Montserrat Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Montserrat Bold'), url(~@/assets/fonts/Montserrat-Bold.woff) format('woff');
+    }
+
+    html {
+        smooth-behavior: smooth;
+        @apply transform transition ease-in-out duration-500 text-sm;
+        font-family: 'Montserrat Regular';
+    }
+
+    body {
+        @apply bg-custom-200 transform transition ease-in-out duration-500 text-sm h-full w-full;
+        font-family: 'Montserrat Regular';
+        cursor: auto;
+        cursor: url(~@/assets/images/mouse.svg), pointer;
+    }
+
     h1 {
-        @apply text-2xl text-center;
+        @apply text-2xl;
+        font-family: 'Butler Stencil';
     }
 
     h2 {
         @apply text-xl;
+        font-family: 'Butler Stencil';
     }
 }
 

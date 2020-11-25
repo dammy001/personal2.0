@@ -48,6 +48,7 @@ module.exports = {
         300: '#C0A478',
         400: '#F4C161',
         500: '#545660',
+        600: '#ebebeb'
       },
       red: {
         100: '#fff5f5',
@@ -170,6 +171,7 @@ module.exports = {
       48: '12rem',
       56: '14rem',
       64: '16rem',
+      70: '24rem',
     },
     backgroundColor: (theme) => theme('colors'),
     backgroundImage: {
@@ -311,6 +313,9 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+      '7xl': '5rem',
+      '8xl': '6rem',
+      '9xl': '7rem',
     },
     fontWeight: {
       hairline: '100',

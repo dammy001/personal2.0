@@ -1,8 +1,12 @@
 <template>
   <div>
-    <nav class="flex items-center justify-between flex-wrap bg-black p-6">
-      <div class="flex items-center flex-shrink-0 text-white mr-6"></div>
-      <div class="block">
+    <nav class="flex items-center justify-between flex-wrap bg-custom-200 p-6">
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <h3 class="transform transition duration-500 hover:translate-x-20">
+          Damilare
+        </h3>
+      </div>
+      <div class="block md:mx-6">
         <button
           class="flex items-right rounded focus:outline-none flex-col"
           @click="setOpen"

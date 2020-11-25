@@ -1,16 +1,11 @@
 <template>
-  <div class="h-screen w-full text-white"></div>
+  <div class="flex flex-col h-screen text-white px-12">
+    <!-- <h1 class="text-4xl">Damilare Anjorin</h1> -->
+  </div>
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
 export default {
   layout: 'default',
-  computed: {
-    ...mapState(['counter']),
-  },
-  methods: {
-    ...mapActions(['increment']),
-  },
 }
 </script>
