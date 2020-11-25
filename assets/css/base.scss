@@ -42,9 +42,10 @@
 
     body {
         @apply bg-custom-200 transform transition ease-in-out duration-500 text-sm h-full w-full;
+        @apply antialiased;
+        @apply px-4;
         font-family: 'Montserrat Regular';
-        cursor: auto;
-        cursor: url(~@/assets/images/mouse.svg), pointer;
+        cursor: url(~@/assets/images/mouse.svg), auto
     }
 
     h1 {
@@ -55,6 +56,12 @@
     h2 {
         @apply text-xl;
         font-family: 'Butler Stencil';
+    }
+
+    @screen lg {
+        body {
+            @apply px-32;
+        }
     }
 }
 

@@ -748,7 +748,7 @@ module.exports = {
     clear: ['responsive'],
     fontFamily: ['responsive'],
     fontSize: ['responsive'],
-    fontSmoothing: ['responsive'],
+    fontSmoothing: ['responsive', 'hover', 'focus'],
     fontVariantNumeric: ['responsive'],
     fontStyle: ['responsive'],
     fontWeight: ['responsive', 'hover', 'focus'],

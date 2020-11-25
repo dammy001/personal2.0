@@ -19,11 +19,11 @@ export default {
     },
   },
   loading: {
-    color: '#F4C161',
+    color: 'white',
     height: '5px',
   },
   publicRuntimeConfig: {
-    baseURL: 'https://api.nuxtjs.dev',
+    baseURL: 'http://localhost:8000',
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
