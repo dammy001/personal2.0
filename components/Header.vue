@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="flex items-center justify-between flex-wrap bg-custom-200 p-6">
+    <nav class="flex items-center justify-between flex-wrap bg-custom-200 p-10">
       <div class="flex items-center flex-shrink-0 text-white mr-6">
         <h3 class="transform transition duration-500 hover:translate-x-20">
           Damilare

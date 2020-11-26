@@ -5,7 +5,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Fullstack Software Engineer' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Fullstack Software Engineer',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -30,7 +34,7 @@ export default {
   css: ['~/assets/css/animation'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['~/plugins/axios.js'],
+  plugins: ['~/plugins/axios.js', '~/plugins/resources.js'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,

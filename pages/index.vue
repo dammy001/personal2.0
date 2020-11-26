@@ -1,10 +1,9 @@
 <template>
-  <div class="flex flex-col h-screen text-white px-8">
-    <div class="grid grid-cols-1 lg:grid-cols-2">
-      <h1 class="text-7xl mt-24 tracking-wide leading-tight">
-        Damilare <br />Anjorin
-      </h1>
-    </div>
+  <div
+    class="flex flex-col h-screen items-center pt-20 text-white px-8 animated fadeIn delay-300"
+  >
+    <img src="@/assets/images/icon.png" class="w-56 h-56" />
+    <h1 class="text-5xl md:text-7xl">{{ fullname }}</h1>
   </div>
 </template>
 
