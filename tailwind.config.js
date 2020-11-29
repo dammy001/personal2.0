@@ -221,6 +221,7 @@ module.exports = {
       default: '0.25rem',
       md: '0.375rem',
       lg: '0.5rem',
+      xl: '1.2rem',
       full: '9999px',
     },
     borderWidth: {
@@ -812,7 +813,7 @@ module.exports = {
     transformOrigin: ['responsive'],
     scale: ['responsive', 'hover', 'focus'],
     rotate: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
-    translate: ['responsive', 'hover', 'focus'],
+    translate: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
     skew: ['responsive', 'hover', 'focus'],
     transitionProperty: ['responsive'],
     transitionTimingFunction: ['responsive'],

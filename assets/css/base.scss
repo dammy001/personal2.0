@@ -37,14 +37,14 @@
     html {
         smooth-behavior: smooth;
         @apply transform transition ease-in-out duration-500 text-sm;
-        font-family: 'Montserrat Regular';
+        font-family: 'Montserrat Medium';
     }
 
     body {
         @apply bg-custom-200 transform transition ease-in-out duration-500 text-sm h-full w-full;
         @apply antialiased;
         @apply px-4;
-        font-family: 'Montserrat Regular';
+        font-family: 'Montserrat Medium';
         cursor: url(~@/assets/images/mouse.svg), auto
     }
 
@@ -66,7 +66,12 @@
 }
 
 @layer components {
-    .line-btn {
-        @apply border border-white h-2px transform transition duration-300;
+    .button {
+        @apply rounded-full cursor-pointer px-24 h-16 border border-custom-300;
+        @apply transform transition duration-500 delay-200;
+
+        &:hover {
+            @apply bg-custom-200 text-white;
+        }
     }
 }

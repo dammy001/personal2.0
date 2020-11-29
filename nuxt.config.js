@@ -11,7 +11,26 @@ export default {
         content: 'Fullstack Software Engineer',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'https://unpkg.com/aos@2.3.1/dist/aos.css',
+      },
+    ],
+    script: [
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
+      },
+      {
+        src: 'https://unpkg.com/aos@2.3.1/dist/aos.js',
+      },
+      {
+        innerHTML: 'AOS.init()',
+      },
+    ],
   },
   router: {
     extendRoutes(routes, resolve) {
